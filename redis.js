@@ -30,7 +30,7 @@ var User = function(username, img, area, socketid){
 	this.img = img;
 	this.area = area;
 	this.socketid = socketid;
-};
+}; 
 
 var users = io.of('/users').on('connection', function (socket) {
 	var user;
