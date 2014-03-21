@@ -1,3 +1,4 @@
+// Some Parallex effect work with jQuery
 // Set the height/width of background images
 function resizeBg() {
     var $bg = $('.bgimage'), winH = $(window).height(), winW = $(window).width(), aspectRatio = $bg.width() / $bg.height();
