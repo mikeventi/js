@@ -1,4 +1,3 @@
-
 var app = require('http').createServer(handler)
   , io = require('socket.io').listen(app, {origins: '*:*', log: false});
 
@@ -138,5 +137,5 @@ function checkExpires(){
 				})
 			});
 		}
-	});
+	}); 
 };
